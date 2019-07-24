@@ -1,0 +1,38 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Description/@EntryValue">Presentation - Demo with TimerTrigger</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Shortcut/@EntryValue">demo-timertrigger</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9B505F3ADD3DA641BDADCCD8A1EF0A88/Text/@EntryValue">            var httpClient = new HttpClient();
+            var cursor = new InMemoryCursor(timer.ScheduleStatus?.Last ?? DateTimeOffset.UtcNow);
+
+            var processor = new CatalogProcessor(
+                cursor, 
+                new CatalogClient(httpClient, new NullLogger&lt;CatalogClient&gt;()), 
+                new DelegatingCatalogLeafProcessor(
+                    added =&gt;
+                    {
+                        log.LogInformation("[ADDED] " + added.PackageId + "@" + added.PackageVersion);
+                        return Task.FromResult(true);
+                    },
+                    deleted =&gt;
+                    {
+                        log.LogInformation("[ADDED] " + deleted.PackageId + "@" + deleted.PackageVersion);
+                        return Task.FromResult(true);
+                    }),
+                new CatalogProcessorSettings
+                {
+                    MinCommitTimestamp = timer.ScheduleStatus?.Last ?? DateTimeOffset.UtcNow,
+                    MaxCommitTimestamp = timer.ScheduleStatus?.Next ?? DateTimeOffset.UtcNow,
+                    ServiceIndexUrl = "https://api.nuget.org/v3/index.json"
+                }, 
+                new NullLogger&lt;CatalogProcessor&gt;());
+
+            await processor.ProcessAsync(CancellationToken.None);</s:String>
+	
+</wpf:ResourceDictionary>

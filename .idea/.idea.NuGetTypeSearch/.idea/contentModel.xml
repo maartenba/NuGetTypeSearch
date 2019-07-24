@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\maart\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\maart\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\maart\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\maart\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\maart\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_NuGetTypeSearch.1362293786.00" t="ExcludeRecursive" />
+    <e p="C:\Users\maart\Desktop\NuGetTypeSearch" t="IncludeFlat">
+      <e p="External" t="Include" />
+      <e p="NuGet.Protocol.Catalog" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CatalogClient.cs" t="Include" />
+        <e p="CatalogProcessor.cs" t="Include" />
+        <e p="CatalogProcessorSettings.cs" t="Include" />
+        <e p="FileCursor.cs" t="Include" />
+        <e p="ICatalogClient.cs" t="Include" />
+        <e p="ICatalogLeafProcessor.cs" t="Include" />
+        <e p="ICatalogProcessor.cs" t="Include" />
+        <e p="ICursor.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="CatalogIndex.cs" t="Include" />
+          <e p="CatalogLeaf.cs" t="Include" />
+          <e p="CatalogLeafItem.cs" t="Include" />
+          <e p="CatalogLeafType.cs" t="Include" />
+          <e p="CatalogPage.cs" t="Include" />
+          <e p="CatalogPageItem.cs" t="Include" />
+          <e p="ICatalogLeafItem.cs" t="Include" />
+          <e p="ModelExtensions.cs" t="Include" />
+          <e p="PackageDeleteCatalogLeaf.cs" t="Include" />
+          <e p="PackageDependency.cs" t="Include" />
+          <e p="PackageDependencyGroup.cs" t="Include" />
+          <e p="PackageDetailsCatalogLeaf.cs" t="Include" />
+        </e>
+        <e p="NuGet.Protocol.Catalog.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NuGet.Protocol.Catalog.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Serialization" t="Include">
+          <e p="BaseCatalogLeafConverter.cs" t="Include" />
+          <e p="CatalogJsonSerialization.cs" t="Include" />
+          <e p="CatalogLeafItemTypeConverter.cs" t="Include" />
+          <e p="CatalogLeafTypeConverter.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NuGetTypeSearch" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="Approach1" t="Include">
+          <e p="Enqueuer.cs" t="Include" />
+          <e p="Indexer.cs" t="Include" />
+        </e>
+        <e p="Approach2" t="Include">
+          <e p="Enqueuer.cs" t="Include" />
+          <e p="Indexer.cs" t="Include" />
+        </e>
+        <e p="Approach3" t="Include">
+          <e p="Enqueueing" t="Include">
+            <e p="Models" t="Include">
+              <e p="PackageEntity.cs" t="Include" />
+            </e>
+            <e p="PopulateQueueAndTable.cs" t="Include" />
+          </e>
+          <e p="Indexing" t="Include">
+            <e p="DownloadToStorage.cs" t="Include" />
+            <e p="Models" t="Include">
+              <e p="PackageDocument.cs" t="Include" />
+              <e p="PackageDocumentEqualityComparer.cs" t="Include" />
+            </e>
+            <e p="PackageIndexer.cs" t="Include" />
+            <e p="PackageIndexerWithCustomBinding.cs" t="Include" />
+          </e>
+        </e>
+        <e p="AuxiliaryNuGetData.cs" t="Include" />
+        <e p="bin\Debug\netcoreapp2.1\bin" t="ExcludeRecursive" />
+        <e p="Constants.cs" t="Include" />
+        <e p="DocumentsOperationsExtensions.cs" t="Include" />
+        <e p="EnumerableExtensions.cs" t="Include" />
+        <e p="host.json" t="Include" />
+        <e p="local.settings.json" t="Include" />
+        <e p="NuGetTypeSearch.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NuGetTypeSearch.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SharedHttpClient.cs" t="Include" />
+        <e p="StringExtensions.cs" t="Include" />
+        <e p="TemporaryFileStream.cs" t="Include" />
+        <e p="Web" t="Include">
+          <e p="FindTypeApi.cs" t="Include" />
+          <e p="Models" t="Include">
+            <e p="FindTypeApiMatch.cs" t="Include" />
+            <e p="FindTypeApiMatchTypeName.cs" t="Include" />
+            <e p="FindTypeApiPackage.cs" t="Include" />
+            <e p="FindTypeApiResult.cs" t="Include" />
+          </e>
+          <e p="NuGetPackageMetadataClient.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NuGetTypeSearch.Bindings" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Catalog" t="Include">
+          <e p="Bindings" t="Include">
+            <e p="NuGetCatalogTriggerAttributeBindingProvider.cs" t="Include" />
+            <e p="NuGetCatalogTriggerBinding.cs" t="Include" />
+          </e>
+          <e p="Configuration" t="Include">
+            <e p="NuGetCatalogTriggerExtensionConfigProvider.cs" t="Include" />
+          </e>
+          <e p="Listeners" t="Include">
+            <e p="NuGetCatalogListener.cs" t="Include" />
+          </e>
+          <e p="NuGetCatalogTriggerAttribute.cs" t="Include" />
+          <e p="PackageOperation.cs" t="Include" />
+        </e>
+        <e p="Constants.cs" t="Include" />
+        <e p="DummyAsyncCollector.cs" t="Include" />
+        <e p="EnumerableExtensions.cs" t="Include" />
+        <e p="NuGetTypeSearch.Bindings.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NuGetTypeSearch.Bindings.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Search" t="Include">
+          <e p="AzureSearchIndexAttribute.cs" t="Include" />
+          <e p="Bindings" t="Include">
+            <e p="AzureSearchAsyncCollector.cs" t="Include" />
+            <e p="AzureSearchAsyncCollectorBuilder.cs" t="Include" />
+          </e>
+          <e p="Configuration" t="Include">
+            <e p="AzureSearchExtensionConfigProvider.cs" t="Include" />
+          </e>
+          <e p="IndexAction.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="NuGetTypeSearch.Catalog" t="IncludeRecursive">
+        <e p="BatchCatalogProcessor.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CloudBlobCursor.cs" t="Include" />
+        <e p="DelegatingCatalogLeafProcessor.cs" t="Include" />
+        <e p="InMemoryCursor.cs" t="Include" />
+        <e p="NuGetTypeSearch.Catalog.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NuGetTypeSearch.Catalog.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="NuGetTypeSearch.CatalogDump" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NuGetTypeSearch.CatalogDump.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NuGetTypeSearch.CatalogDump.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="NuGetTypeSearch.ODataDump" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NuGetPackageProvider.cs" t="Include" />
+        <e p="NuGetTypeSearch.ODataDump.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NuGetTypeSearch.ODataDump.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PackageDefinition.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="NuGetTypeSearch.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Utilities" t="Include" />
+    </e>
+  </component>
+</project>
